@@ -26,7 +26,7 @@ function App() {
       setTasks(data); // Armazenar/Persistir dados no state
     };
 
-    //fetchTasks();
+    //fetchTasks(); -> Se quiser usar uma api
   }, []);
 
   function onTaskClick(taskId) {
